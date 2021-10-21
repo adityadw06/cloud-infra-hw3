@@ -8,4 +8,4 @@
 python3 code.py <access_key_id> <access_key_secret>
 
 ## About Dataset used
-The dataset which is uploaded to AWS is build upon given dummy data. The only change is addition of column 'Day' to the experiments.csv file
+The dataset which is uploaded to AWS is build upon given dummy data. The only change is addition of column 'Day' to the experiments.csv file which is treated as partitionKey and 'Id' as sort-key. The remaining blob files are same and have the property of being unstructured.
